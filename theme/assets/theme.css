@@ -240,6 +240,16 @@ body {
   display:flex;
 }
 
+.anvil-m3-app-title {
+    float: left;
+    min-height: 56px;
+}
+
+.anvil-m3-app-bar-links {
+    float: right;
+    min-height: 56px;
+}
+
 .anvil-m3-navigation-rail.anvil-m3-modal-navigation-drawer + .anvil-m3-top-app-bar, .anvil-m3-navigation-drawer + .anvil-m3-top-app-bar {
     z-index: 1;
     position: fixed;
@@ -489,7 +499,7 @@ body {
 }
 
 .anvil-m3-content {
-  top: 0;
+  top: 56px;
   padding: 8px;
   position:relative;
 }
