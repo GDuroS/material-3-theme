@@ -237,7 +237,7 @@ body {
 }
 
 .anvil-m3-top-app-bar  {
-  display:none;
+  display:flex;
 }
 
 .anvil-m3-navigation-rail.anvil-m3-modal-navigation-drawer + .anvil-m3-top-app-bar, .anvil-m3-navigation-drawer + .anvil-m3-top-app-bar {
