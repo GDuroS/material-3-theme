@@ -70,6 +70,8 @@ unique_ids:
     designer_icons/toggle_icon_button_dark.svg: 7DAFFO5P4PSMHDQ73R2FXYVFP4ARD7VN
     theme.css: ETNISNSUVCSJYUF6AOQQTK6JLIO7LPER
   forms:
+    Form1: '1733236565936969828941527.6769'
+    Form1.RowTemplate1: '1733236578249836370706032.5758'
     Layouts.NavigationDrawerLayout: '1718099721235160190367802.35773'
     Layouts.NavigationRailLayout: '1687425784458804083712790.1608'
     _Components.Button: '1688638796100476667734674.68195'

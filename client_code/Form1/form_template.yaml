@@ -1,0 +1,20 @@
+components_by_slot:
+  content:
+  - components:
+    - data_bindings: []
+      name: repeating_panel_1
+      properties: {item_template: Form1.RowTemplate1}
+      type: RepeatingPanel
+    - name: data_row_panel_1
+      properties: {}
+      type: DataRowPanel
+    layout_properties: {}
+    name: data_grid_1
+    properties:
+      columns:
+      - {data_key: column_1, id: BPVKXU, title: Column 1}
+      - {data_key: column_2, id: SKGJAN, title: Column 2}
+      - {data_key: column_3, id: EKTUPU, title: Column 3}
+    type: DataGrid
+is_package: true
+layout: {type: 'form:Layouts.NavigationRailLayout'}
