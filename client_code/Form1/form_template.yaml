@@ -1,0 +1,23 @@
+components:
+- layout_properties: {grid_position: 'EIXJBK,ZFMYOB'}
+  name: text_box_1
+  properties: {label: text}
+  type: form:_Components.TextInput.TextBox
+- layout_properties: {grid_position: 'VQYGST,PFXQTD'}
+  name: text_area_1
+  properties: {label: asdsadadasda, text: ''}
+  type: form:_Components.TextInput.TextArea
+- layout_properties: {grid_position: 'TBYAXO,TORIVZ'}
+  name: dropdown_menu_1
+  properties:
+    allow_none: false
+    items: [Teste, Outro]
+    label: Label
+  type: form:_Components.DropdownMenu
+- event_bindings: {click: toggle_icon_button_1_click}
+  layout_properties: {grid_position: 'XOYSEZ,SGUJVJ'}
+  name: toggle_icon_button_1
+  properties: {align: center}
+  type: form:_Components.ToggleIconButton
+container: {type: ColumnPanel}
+is_package: true
