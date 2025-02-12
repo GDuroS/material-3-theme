@@ -1,23 +1,55 @@
 components:
-- layout_properties: {grid_position: 'EIXJBK,ZFMYOB'}
-  name: text_box_1
-  properties: {label: text}
-  type: form:_Components.TextInput.TextBox
-- layout_properties: {grid_position: 'VQYGST,PFXQTD'}
-  name: text_area_1
-  properties: {label: asdsadadasda, text: ''}
-  type: form:_Components.TextInput.TextArea
-- layout_properties: {grid_position: 'TBYAXO,TORIVZ'}
-  name: dropdown_menu_1
-  properties:
-    allow_none: false
-    items: [Teste, Outro]
-    label: Label
-  type: form:_Components.DropdownMenu
-- event_bindings: {click: toggle_icon_button_1_click}
-  layout_properties: {grid_position: 'XOYSEZ,SGUJVJ'}
-  name: toggle_icon_button_1
-  properties: {align: center}
-  type: form:_Components.ToggleIconButton
+- layout_properties: {grid_position: 'ETRYIF,QPCJOZ'}
+  name: text_1
+  properties: {align: center, bold: true, text: TextBoxes}
+  type: form:_Components.Text
+- components:
+  - layout_properties: {}
+    name: text_box_1
+    properties: {label: Enabled, text: Allows changing}
+    type: form:_Components.TextInput.TextBox
+  - layout_properties: {}
+    name: text_box_2
+    properties: {enabled: false, label: Disabled, text: Doesn't allow changes}
+    type: form:_Components.TextInput.TextBox
+  - layout_properties: {}
+    name: text_box_3
+    properties: {enabled: true, label: Read-only, read_only: true, text: Doesn't allow changes}
+    type: form:_Components.TextInput.TextBox
+  layout_properties: {grid_position: 'XKUVIZ,ZPEFDA'}
+  name: flow_panel_1
+  properties: {align: center, gap: medium}
+  type: FlowPanel
+- layout_properties: {grid_position: 'VHXSCW,TZAZBU'}
+  name: text_2
+  properties: {align: center, bold: true, text: Dropdowns}
+  type: form:_Components.Text
+- components:
+  - layout_properties: {}
+    name: dropdown_menu_1
+    properties:
+      items: [Allows selection]
+      label: Enabled
+      placeholder: ''
+    type: form:_Components.DropdownMenu
+  - layout_properties: {}
+    name: dropdown_menu_2
+    properties:
+      enabled: false
+      items: [Can't be changed]
+      label: Disabled
+    type: form:_Components.DropdownMenu
+  - layout_properties: {}
+    name: dropdown_menu_3
+    properties:
+      items: [Acts like read-only TextBox]
+      label: Read-only
+      placeholder: ''
+      read_only: true
+    type: form:_Components.DropdownMenu
+  layout_properties: {grid_position: 'DREKBD,XQZGBX'}
+  name: flow_panel_1_copy_2
+  properties: {align: center, gap: medium}
+  type: FlowPanel
 container: {type: ColumnPanel}
 is_package: true
