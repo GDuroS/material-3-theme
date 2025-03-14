@@ -11,4 +11,6 @@ class Form1(Form1Template):
 
     def text_box_1_change(self, **event_args):
         """This method is called when the text in this component is edited."""
-        self.text_box_1.text = self.text_box_1.text
+        value = event_args['sender'].text
+        if isinstance(value, float) and value < 0:
+            event_args['sender'].text = 
